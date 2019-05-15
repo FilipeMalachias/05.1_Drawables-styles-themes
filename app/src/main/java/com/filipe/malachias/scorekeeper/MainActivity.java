@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     public void increaseScore(View view)
     {
         //Get the ID of the button that was clicked
+
         int viewID = view.getId();
         switch (viewID){
             //If it was on Team 1

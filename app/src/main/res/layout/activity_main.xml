@@ -29,7 +29,7 @@
             android:layout_centerVertical="true"
             style="@style/MinusButtons"
             android:onClick="decreaseScore"
-            android:background="@drawable/button_background"/>
+            android:tint="@drawable/button_pressed"/>
 
         <TextView
             android:id="@+id/score_1"
@@ -49,7 +49,7 @@
             android:layout_centerVertical="true"
             style="@style/PlusButtons"
             android:onClick="increaseScore"
-            android:background="@drawable/button_background"/>
+            android:tint="@drawable/button_pressed"/>
 
     </RelativeLayout>
 
@@ -75,7 +75,7 @@
             android:layout_centerVertical="true"
             style="@style/MinusButtons"
             android:onClick="decreaseScore"
-            android:background="@drawable/button_background"/>
+            android:tint="@drawable/button_pressed"/>
 
         <TextView
             android:id="@+id/score_2"
@@ -95,6 +95,6 @@
             android:layout_centerVertical="true"
             style="@style/PlusButtons"
             android:onClick="increaseScore"
-            android:background="@drawable/button_background"/>
+            android:tint="@drawable/button_pressed" />
     </RelativeLayout>
 </LinearLayout>
